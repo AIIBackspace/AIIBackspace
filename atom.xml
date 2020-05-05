@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aiibackspace.github.io/AIIBackspace/</id>
     <title>瀚海澜云</title>
-    <updated>2020-05-05T11:25:58.491Z</updated>
+    <updated>2020-05-05T11:31:01.550Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aiibackspace.github.io/AIIBackspace/"/>
     <link rel="self" href="https://aiibackspace.github.io/AIIBackspace/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://aiibackspace.github.io/AIIBackspace/images/avatar.png</logo>
     <icon>https://aiibackspace.github.io/AIIBackspace/favicon.ico</icon>
     <rights>All rights reserved 2020, 瀚海澜云</rights>
+    <entry>
+        <title type="html"><![CDATA[成绩！]]></title>
+        <id>https://aiibackspace.github.io/AIIBackspace/post/cheng-ji/</id>
+        <link href="https://aiibackspace.github.io/AIIBackspace/post/cheng-ji/">
+        </link>
+        <updated>2020-05-05T11:29:02.000Z</updated>
+        <content type="html"><![CDATA[<p>明天估计考试成绩就能出来几门了！<br>
+我就要完了<br>
+<s>开玩笑，我可是超勇的</s></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello ！]]></title>
         <id>https://aiibackspace.github.io/AIIBackspace/post/hello-gridea/</id>
@@ -23,7 +34,7 @@
 ✍️  这里是一个关于我的网站。我也许会用它来记录我的生活、心情、知识、笔记... ...</p>
 <!-- more -->
 <p><a href="https://space.bilibili.com/282502642">Bilibili</a><br>
-<a href="https://github.com/AIIBackspace">Gridea 主页</a></p>
+<a href="https://github.com/AIIBackspace">GitHub 主页</a></p>
 ]]></content>
     </entry>
 </feed>
