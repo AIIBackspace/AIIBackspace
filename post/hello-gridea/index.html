@@ -7,13 +7,19 @@
 <meta name="description" content="我的个人网站">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://aiibackspace.github.io/AIIBackspace//favicon.ico?v=1588671182474">
+<link rel="shortcut icon" href="https://aiibackspace.github.io/AIIBackspace//favicon.ico?v=1588677064019">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://aiibackspace.github.io/AIIBackspace//styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
@@ -107,11 +113,19 @@
           
         </div>
         
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
       </div>
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://aiibackspace.github.io/AIIBackspace//images/avatar.png?v=1588671182474" class="no-responsive avatar">
+    <img src="https://aiibackspace.github.io/AIIBackspace//images/avatar.png?v=1588677064019" class="no-responsive avatar">
     <div class="text-muted">我的个人网站</div>
     <div class="social-container">
       
@@ -163,7 +177,7 @@
     </div>
     <div class="row">
       
-        <a href="https://aiibackspace.github.io/AIIBackspace/tag/U4lLrQoDM/" class="badge secondary">
+        <a href="https://aiibackspace.github.io/AIIBackspace/tag/U4lLrQoDM/" class="badge warning">
           Gridea
         </a>
       
@@ -186,6 +200,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'c288759869a365570fc2',
+        clientSecret: '61032bf9f5f193e7c90ee0263cd6c667a784875f',
+        repo: 'chat',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
