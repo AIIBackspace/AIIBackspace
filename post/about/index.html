@@ -4,14 +4,11 @@
     <meta charset="utf-8" >
 
 <title>About me | 瀚海澜云</title>
-<meta name="description" content="我的个人网站">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://aiibackspace.github.io/AIIBackspace//favicon.ico?v=1588677220301">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://aiibackspace.github.io/AIIBackspace//favicon.ico?v=1588677800915">
 <link rel="stylesheet" href="https://aiibackspace.github.io/AIIBackspace//styles/main.css">
 
 
@@ -21,103 +18,107 @@
 
   
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="
+
+欢迎来到我的小站呀，很高兴遇见你！🤝
+
+
+
+🏠关于本站   这是我花了好长一段时间，查找了无数视频资料终于才弄好的
+
+
+
+
+
+
+👨‍💻主人是谁  我是谁？！！！
+
+
+
+
+
+⛹兴趣爱好  不晓得呢，有时打打游戏，看看书，看电影，剪..." />
+    <meta name="keywords" content="up主,宅男,肥宅,哈迷,獾院,学生" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://aiibackspace.github.io/AIIBackspace/">瀚海澜云</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://aiibackspace.github.io/AIIBackspace/">
+        <img src="https://aiibackspace.github.io/AIIBackspace//images/avatar.png?v=1588677800915" class="site-logo">
+        <h1 class="site-title">瀚海澜云</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="https://space.bilibili.com/282502642" class="menu">
-                B站首页
-              </a>
-            
-          </li>
+          <a href="https://space.bilibili.com/282502642" class="site-nav">
+            B站首页
+          </a>
         
-          <li>
-            
-              <a href="https://github.com/AIIBackspace" class="menu">
-                GitHub主页
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="https://weibo.com/7376552054/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" class="menu">
-                微博
-              </a>
-            
-          </li>
+          <a href="https://github.com/AIIBackspace" class="site-nav">
+            GitHub主页
+          </a>
         
-          <li>
-            
-              <a href="https://aiibackspace.github.io/AIIBackspace/post/about" class="menu">
-                关于我
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="https://weibo.com/7376552054/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" class="site-nav">
+            微博
+          </a>
+        
+      
+        
+          <a href="https://aiibackspace.github.io/AIIBackspace/post/about" class="site-nav">
+            关于我
+          </a>
+        
+      
     </div>
   </div>
-</nav>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      我的个人网站
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://aiibackspace.github.io/AIIBackspace//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>About me</h1>
-            <p class="article-meta">
-              2020-05-05
-              
-                <a href="https://aiibackspace.github.io/AIIBackspace/tag/JphJbKYJk/" class="badge ">
-                  up主
-                </a>
-              
-                <a href="https://aiibackspace.github.io/AIIBackspace/tag/Y-JyIr96f/" class="badge secondary">
-                  宅男
-                </a>
-              
-                <a href="https://aiibackspace.github.io/AIIBackspace/tag/dIUM8sRxw/" class="badge success">
-                  肥宅
-                </a>
-              
-                <a href="https://aiibackspace.github.io/AIIBackspace/tag/BDXIRtj1s/" class="badge success">
-                  哈迷
-                </a>
-              
-                <a href="https://aiibackspace.github.io/AIIBackspace/tag/Ku_bpH6BB/" class="badge success">
-                  獾院
-                </a>
-              
-                <a href="https://aiibackspace.github.io/AIIBackspace/tag/6ix0s-VPW/" class="badge secondary">
-                  学生
-                </a>
-              
-            </p>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">About me</h2>
+            <div class="post-date">2020-05-05</div>
             
-            <div class="post-content">
+            <div class="post-content" v-pre>
               <!-- more -->
 <blockquote>
 <p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
@@ -150,99 +151,66 @@
 <h2 id="这字体大小怎么又搞不好了淦字咋那么大qaq">这字体大小怎么又搞不好了，淦，字咋那么大？QAQ</h2>
 
             </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-        </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
+            
+              <div class="tag-container">
+                
+                  <a href="https://aiibackspace.github.io/AIIBackspace/tag/JphJbKYJk/" class="tag">
+                    up主
+                  </a>
+                
+                  <a href="https://aiibackspace.github.io/AIIBackspace/tag/Y-JyIr96f/" class="tag">
+                    宅男
+                  </a>
+                
+                  <a href="https://aiibackspace.github.io/AIIBackspace/tag/dIUM8sRxw/" class="tag">
+                    肥宅
+                  </a>
+                
+                  <a href="https://aiibackspace.github.io/AIIBackspace/tag/BDXIRtj1s/" class="tag">
+                    哈迷
+                  </a>
+                
+                  <a href="https://aiibackspace.github.io/AIIBackspace/tag/Ku_bpH6BB/" class="tag">
+                    獾院
+                  </a>
+                
+                  <a href="https://aiibackspace.github.io/AIIBackspace/tag/6ix0s-VPW/" class="tag">
+                    学生
+                  </a>
+                
+              </div>
+            
+            
 
-          
-        
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
       </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://aiibackspace.github.io/AIIBackspace//images/avatar.png?v=1588677220301" class="no-responsive avatar">
-    <div class="text-muted">我的个人网站</div>
-    <div class="social-container">
-      
-        
-          <a href="https://github.com/AIIBackspace" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-          <a href="https://weibo.com/7376552054/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://aiibackspace.github.io/AIIBackspace/post/hello-gridea/">Hello ！</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://aiibackspace.github.io/AIIBackspace/post/about/">About me</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://aiibackspace.github.io/AIIBackspace/tag/U4lLrQoDM/" class="badge secondary">
-          Gridea
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://aiibackspace.github.io/AIIBackspace//atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
-
-
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
 
 
 
