@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://aiibackspace.github.io/AIIBackspace/</id>
     <title>瀚海澜云</title>
-    <updated>2020-05-07T02:56:24.174Z</updated>
+    <updated>2020-05-07T03:03:53.826Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://aiibackspace.github.io/AIIBackspace/"/>
     <link rel="self" href="https://aiibackspace.github.io/AIIBackspace/atom.xml"/>
@@ -18,9 +18,11 @@
         <updated>2020-05-07T02:47:17.000Z</updated>
         <content type="html"><![CDATA[<p>我成功成为一名光荣的C级人员了<br>
 <s>貌似</s><br>
-<img src="https://aiibackspace.github.io/AIIBackspace//post-images/1588819877698.png" alt="" loading="lazy"><br>
-友情链接：http://scp-wiki-cn.wikidot.com/<br>
-希望人没事🙏🙏🙏</p>
+<img src="https://aiibackspace.github.io/AIIBackspace//post-images/1588819877698.png" alt="" loading="lazy"></p>
+<ul>
+<li>友情链接：http://scp-wiki-cn.wikidot.com/<br>
+<s>希望人没事🙏🙏🙏</s></li>
+</ul>
 ]]></content>
     </entry>
     <entry>
